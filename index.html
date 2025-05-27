@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1> 🌸 My Task List 🌸 </h1>
+        <input type="text" id="taskInput" placeholder="Enter a new task" />
+        <button onclick="addTask()">Add Task</button>
+        <h2>📋 Tasks </h2>
+        <ul id="taskList"></ul>
+
+        <h2>✔ Completed</h2>
+        <ul id="completedList"></ul>
+
+        <button id="clearCompletedBtn" onclick="clearCompleted()">Clear Completed</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
